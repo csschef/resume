@@ -82,18 +82,19 @@ details {
 }
 
 summary {
-  list-style: none;
+    list-style: none;
+    cursor: pointer;
 }
 
 summary::-webkit-details-marker {
-  display: none;
+    display: none;
 }
 
 summary i {
-  margin-right: 8px;
-  transition: transform 0.2s;
+    margin-right: 8px;
+    transition: transform 0.2s;
 }
 
 details[open] summary i {
-  transform: rotate(90deg);
+    transform: rotate(90deg);
 }
