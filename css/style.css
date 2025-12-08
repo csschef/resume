@@ -80,3 +80,20 @@ details {
     color: rgb(11, 6, 32);
     list-style: none;
 }
+
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary i {
+  margin-right: 8px;
+  transition: transform 0.2s;
+}
+
+details[open] summary i {
+  transform: rotate(90deg);
+}
