@@ -213,5 +213,10 @@ header {
     font-size: 1rem;
 }
 
+.social a:hoover {
+    font-weight: 700;
+    color: red;
+}
+
 
 
