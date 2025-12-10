@@ -288,14 +288,11 @@ header {
 }
 
 @media screen and (min-width: 600px) {
-
-.projects-grid {
+    .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-.name h1 {
-    font-size: 2rem;
-    font-size: clamp(2rem, 1.9081632653061225rem + 0.24489795918367332vw, 2.3rem);
+    .name h1 {
+        font-size: clamp(2rem, 1.9081632653061225rem + 0.24489795918367332vw, 2.3rem);
     }
-    
 }
