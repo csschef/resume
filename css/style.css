@@ -32,11 +32,13 @@ img {
 h1 {
     color: var(--primary-text-color);
     font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.457142857142857rem + 0.2142857142857143vw, 1.8rem);
     margin-bottom: 0.5rem;
 }
 h2 {
     color: var(--primary-text-color);
     font-size: 1.1rem;
+    font-size: clamp(1.1rem, 1.0571428571428572rem + 0.21428571428571416vw, 1.4rem);
     font-weight: 500;
 }
 
@@ -53,11 +55,13 @@ strong {
 p {
     color: var(--primary-text-color);
     font-size: 1rem;
+    font-size: clamp(1rem, 0.9571428571428572rem + 0.2142857142857143vw, 1.3rem);
     line-height: 1.5;
 }
 
 .about-me p {
-    font-size: .9rem;
+    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 0.8714285714285714rem + 0.1428571428571429vw, 1.1rem);
     margin-top: 0rem;
     color: var(--secondary-text-color);
 }
@@ -113,7 +117,8 @@ details {
 
 details > p {
     color: var(--secondary-text-color);
-    font-size: .8rem;
+    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.7571428571428572rem + 0.2142857142857143vw, 1.1rem);
 }
 
 summary {
@@ -121,7 +126,8 @@ summary {
     cursor: pointer;
     line-height: 1.5;
     color:var(--primary-text-color);
-    font-size: .9rem;
+    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 0.8714285714285714rem + 0.1428571428571429vw, 1.1rem);
     
 }
 
@@ -193,6 +199,7 @@ header {
 
 .name h1 {
     font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.4285714285714286rem + 0.35714285714285715vw, 2rem);
 }
 
 
@@ -206,6 +213,7 @@ header {
 .tagline p {
     margin: 0;
     font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.7714285714285715rem + 0.14285714285714282vw, 1rem);
     color: var(--secondary-text-color);
 }
 
@@ -223,7 +231,8 @@ header {
     margin: 0 15px;
     color: var(--primary-text-color);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 0.8714285714285714rem + 0.1428571428571429vw, 1.1rem);
 }
 
 .social a:hover {
@@ -252,6 +261,7 @@ header {
 
 .project-item-description {
     font-size: 0.9rem;
+    font-size: clamp(0.9rem, 0.8714285714285714rem + 0.1428571428571429vw, 1.1rem);
     color: var(--secondary-text-color);
     margin-top: 0;
 }
@@ -265,7 +275,8 @@ header {
     text-decoration: none;
     color: var(--primary-text-color);
     background-color: var(--bg-color);
-    font-size: .9rem;
+    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.7571428571428572rem + 0.2142857142857143vw, 1.1rem);
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -279,6 +290,10 @@ header {
 @media screen and (min-width: 600px) {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .name h1 {
+        font-size: 2rem;
     }
     
 }
