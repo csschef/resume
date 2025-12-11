@@ -337,7 +337,7 @@ header {
     margin-right: auto;
     margin-top: auto;
     padding: .8rem 1rem;
-    border-radius: 6px;;
+    border-radius: 6px;
     box-shadow: var(--box-shadow-1);
     cursor: pointer;
     transition: transform 0.3s;
