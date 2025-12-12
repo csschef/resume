@@ -241,7 +241,7 @@ header {
     grid-template-columns: 22% 78%;
     align-items: center;
     padding: 1rem;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
 }
 
